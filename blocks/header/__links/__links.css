@@ -1,0 +1,5 @@
+.header__links{
+    display: flex;
+    justify-items: end;
+    color: white;
+}
