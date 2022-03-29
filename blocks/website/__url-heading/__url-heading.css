@@ -1,4 +1,4 @@
-.places__website__url-heading{
+.website__url-heading{
 margin: 0;
 padding:0;
 width: 456px;
@@ -8,8 +8,11 @@ font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
 font-size: 12px;
-line-height: 1px;
+line-height: 1;
 /* identical to box height, or 100% */
+
+letter-spacing: 2px;
 
 color: #AAAAAA;
 }
+

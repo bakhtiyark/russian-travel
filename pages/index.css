@@ -17,11 +17,16 @@
 @import url("../blocks/photo-grid/photo-grid.css");
 @import url("../blocks/photo-grid/__item/__item.css");
 
-@import url("../blocks/places/__places.css");
-@import url("../blocks/places/__paragraph/__paragraph.css");
-@import url("../blocks/places/__title/__title.css");
-@import url("../blocks/places/__website/__link.css");
-@import url("../blocks/places/__website/__url-heading.css");
+@import url("../blocks/places/places.css");
+
+@import url("../blocks/place/place.css");
+@import url("../blocks/place/__paragraph/__paragraph.css");
+@import url("../blocks/place/__title/__title.css");
+
+@import url("../blocks/website/website.css");
+@import url("../blocks/website/__link/__link.css");
+@import url("../blocks/website/__url-heading/__url-heading.css");
+
 
 @import url("../blocks/lead/__title/lead__title.css");
 @import url("../blocks/lead/__subtitle/lead__subtitle.css");
