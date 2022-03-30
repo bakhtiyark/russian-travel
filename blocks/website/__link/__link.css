@@ -13,3 +13,6 @@ text-decoration-line: underline;
 
 color: #FFFFFF;
 }
+.website__link:hover{
+    opacity: 0.8;
+}

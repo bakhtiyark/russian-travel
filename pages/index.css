@@ -1,4 +1,5 @@
 @import url(../vendor/normalize.css);
+@import url("../blocks/root/root.css");
 @import url("../blocks/header/header.css");
 @import url("../blocks/header/__logo/__logo.css");
 @import url("../blocks/header/__lang-link/__lang-link.css");
@@ -36,4 +37,9 @@
 @import url("../blocks/cover/__subtitle/__subtitle.css");
 @import url("../blocks/cover/__overlay/__overlay.css");
 
-@import url("../blocks/root/root.css");
+@import url("../blocks/footer/footer.css");
+@import url("../blocks/footer/__copyright/__copyright.css");
+
+@import url("../blocks/footer/__link/__link.css");
+@import url("../blocks/footer/__list/__list.css");
+@import url("../blocks/footer/__item/__item.css");

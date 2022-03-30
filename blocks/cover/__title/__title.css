@@ -12,8 +12,8 @@ font-style: normal;
 font-weight: 900;
 font-size: 72px;
 line-height: 1.06;
+text-rendering: optimizeLegibility;
 /* or 106% */
-
 text-align: center;
 
 color: #FFFFFF;
