@@ -1,4 +1,4 @@
-
+@import url(../vendor/normalize.css);
 @import url("../blocks/header/header.css");
 @import url("../blocks/header/__logo/__logo.css");
 @import url("../blocks/header/__lang-link/__lang-link.css");
@@ -22,12 +22,18 @@
 @import url("../blocks/place/place.css");
 @import url("../blocks/place/__paragraph/__paragraph.css");
 @import url("../blocks/place/__title/__title.css");
+@import url("../blocks/place/__image/__image.css");
 
 @import url("../blocks/website/website.css");
 @import url("../blocks/website/__link/__link.css");
 @import url("../blocks/website/__url-heading/__url-heading.css");
 
 
-@import url("../blocks/lead/__title/lead__title.css");
-@import url("../blocks/lead/__subtitle/lead__subtitle.css");
+@import url("../blocks/lead/__title/__title.css");
+@import url("../blocks/lead/__subtitle/__subtitle.css");
+
+@import url("../blocks/cover/__title/__title.css");
+@import url("../blocks/cover/__subtitle/__subtitle.css");
+@import url("../blocks/cover/__overlay/__overlay.css");
+
 @import url("../blocks/root/root.css");
