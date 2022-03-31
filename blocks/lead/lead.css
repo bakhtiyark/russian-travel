@@ -1,6 +1,23 @@
 .lead{
-    padding-top: 56px;
+    margin: 56px auto 0;
+    width: calc(100% - 2 * 148px);
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+.lead:last-child{
+    align-items: left;
+}
+@media screen and (max-width: 1279px) {
+    .lead {
+        width: calc(100% - 2 * 48px);
+        margin: 48px auto 0;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .lead {
+        width: 100%;
+    }
 }

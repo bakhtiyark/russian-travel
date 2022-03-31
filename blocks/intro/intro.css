@@ -1,5 +1,25 @@
-.intro{
-    font-family: 'Inter';
-    font-style: normal;
-    width: auto;
+.intro {
+    padding: 92px 0 0;
+    margin: auto;
+    width: calc(100% - 2 * 148px);
+}
+
+@media screen and (max-width: 1279px) {
+    .intro {
+        width: calc(100% - 2 * 48px);
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .intro {
+        width: calc(100% - 2 * 24px);
+        padding: 88px 0 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .intro {
+        width: calc(100% - 2 * 16px);
+        padding: 64px 0 0;
+    }
 }

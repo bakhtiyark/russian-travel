@@ -2,20 +2,17 @@
     max-width: 460px;
 }
 
-@media screen and (max-width: 1279px) {
-    .place__image {
-        max-width: 440px;
-    }
-}
-
 @media screen and (max-width: 1023px) {
     .place__image {
-        max-width: 340px;
+      width: 340px;
+      height: 340px;
     }
-}
-
-@media screen and (max-width: 767px) {
+  }
+  
+  @media screen and (max-width: 767px) {
     .place__image {
-        max-width: 100%;
+      width: 320px;
+      height: 320px;
     }
-}
+  }
+  

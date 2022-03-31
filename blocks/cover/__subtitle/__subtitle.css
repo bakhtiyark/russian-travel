@@ -3,7 +3,7 @@
     padding: 0;
     width: 360px;
     height: 66px;
-    
+    z-index: 12;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -15,3 +15,12 @@
     color: #FFFFFF;
     display: flex;
 }
+@media screen and (max-width: 767px) {
+    .cover__subtitle {
+      max-width: 288px;
+      padding: 16px 0 0;
+      font-size: 14px;
+      line-height: 1.14;
+    }
+  }
+  

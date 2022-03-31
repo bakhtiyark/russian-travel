@@ -5,3 +5,10 @@
 .footer__item:last-of-type {
     margin: 0;
 }
+@media screen and (max-width: 1023px) {
+    .footer__item {
+        padding-bottom: 32px;
+font-size: 24px;
+line-height: 1;
+    }
+}
