@@ -23,7 +23,7 @@ text-decoration: none;
     background: #2a2c2f;
     opacity: 0.3;
 }
-.cover__overlay:hover {
+.cover__overlay:hover::before {
     opacity: 0.8;
     transition: opacity 0.5s ease-in-out;
   }
