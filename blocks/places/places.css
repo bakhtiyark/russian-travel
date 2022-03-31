@@ -1,7 +1,7 @@
 .places {
     display: flex;
     flex-direction: column;
-    align-items: center;    
+    align-items: center;
     width: calc(100% - 2 * 148px);
     margin: auto;
     padding-top: 92px;
