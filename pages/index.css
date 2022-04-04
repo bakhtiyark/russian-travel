@@ -51,20 +51,4 @@
 @import url("../blocks/footer/__link/__link.css");
 @import url("../blocks/footer/__list/__list.css");
 @import url("../blocks/footer/__item/__item.css");
-
-@font-face {
-    font-family: "Inter Regular";
-    src: local("Inter Regular");
-    font-weight: 400;
-  }
-
-  @font-face {
-    font-family: "Inter Bold";
-    src: local("Inter Bold");
-    font-weight: 700;
-  }
-  @font-face {
-    font-family: "Inter Black";
-    src: local("Inter Black");
-    font-weight: 900;
-  }
+@import url("../vendor/fonts.css")
