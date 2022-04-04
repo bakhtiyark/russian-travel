@@ -9,16 +9,16 @@
 .lead:last-child{
     align-items: left;
 }
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1280px) and (min-width: 1025px){
     .lead {
-        max-width: calc(100% - 2 * 24px);
-        margin: 48px auto 0;
+        max-width: calc(100% - 2 * 148px);
+        margin: 148px auto 0;
     }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
     .lead {        
-        max-width: calc(100% - 2 * 10px);
+        max-width: calc(100% - 2 * 48px);
     }
 }
 @media screen and (max-width: 768px) {

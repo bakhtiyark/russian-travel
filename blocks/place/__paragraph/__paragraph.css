@@ -2,7 +2,6 @@
 margin: 0;
 padding: 0;
 min-height: auto;
-font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
@@ -10,7 +9,7 @@ line-height: 1.63;
 color: #FFFFFF;
 }
 .place__paragraph:first-of-type{
-    padding-bottom: 26px;
+  margin-bottom: 26px;
 
 }
 
@@ -22,13 +21,13 @@ padding: 0;
     .place__paragraph {
       max-width: 484px;
       font-size: 16px;
-      padding: 0 0 25px;
+      margin: 0 0 25px;
     }
   }
   
   @media screen and (max-width: 1024px) {
     .place__paragraph {
-      padding-bottom: 25px;
+      margin-bottom: 25px;
       max-width: 456px;
     }
 
@@ -37,14 +36,18 @@ padding: 0;
   @media screen and (max-width: 768px) {
     .place__paragraph {
       font-size: 16px;
-      padding: 0 0 25px;
+      margin: 0 0 25px;
       max-width: 352px;
     }
+    .place__paragraph:first-of-type{
+      margin-bottom: 25px;
+  
+  }
   }
   
   @media screen and (max-width: 320px) {
     .place__paragraph {
-      padding-bottom: 25px;
+      margin-bottom: 25px;
       max-width: 288px;
     }
 
