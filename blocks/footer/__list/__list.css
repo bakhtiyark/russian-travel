@@ -5,7 +5,8 @@
     list-style-type: none;
 }
 
-@media screen and (max-width: 767px) {
+
+@media screen and (max-width: 320px) {
     .footer__list {
         flex-direction: column;
         

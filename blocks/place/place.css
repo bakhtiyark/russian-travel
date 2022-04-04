@@ -40,3 +40,16 @@
         margin: 0 auto;
     }
 }
+@media screen and (max-width: 320px) {
+    .place {
+        grid-template-columns: minmax(min-content, max-content);
+        grid-template-rows: repeat(4, minmax(min-content, max-content));
+        width: calc(100% - 2 * 16px);
+        row-gap: 32px;
+        margin: 50px 0 0 0;
+    }
+
+    .place:last-of-type .place__paragraph {
+        margin: 0 auto;
+    }
+}

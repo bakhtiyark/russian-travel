@@ -2,13 +2,11 @@
   margin: 0;
   padding: 0;
   position: relative;
-  width: 1184px;
+  max-width: 1184px;
   max-height: 740px;
   box-sizing: content-box;
   
 }
-
-
 
 @media screen and (max-width: 1279px) {
   .cover {

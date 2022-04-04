@@ -5,15 +5,26 @@
     display: block;
 }
 
-  
+@media screen and (max-width: 767px) {
+  .photo-grid__item {
+    width: 284px;
+    height: 213px;
+  }
+}
   @media screen and (max-width: 1023px) {
     .photo-grid__item {
-      width: 353px;
-      height: 264px;
+      width: 300px;
+      height: 225px;
     }
   }
   
   @media screen and (max-width: 767px) {
+    .photo-grid__item {
+      width: 352px;
+      height: 264px;
+    }
+  }  
+  @media screen and (max-width: 320px) {
     .photo-grid__item {
       width: 288px;
       height: 216px;

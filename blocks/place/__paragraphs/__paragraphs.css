@@ -19,5 +19,6 @@
     .place__paragraphs {
         width: calc(100% - 2 * 69px);
         padding-top: 32px;
+        margin: 0 16px 0 16px;
     }
 }
