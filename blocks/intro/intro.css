@@ -13,6 +13,7 @@
     .intro {
         width: calc(100% - 2 * 10px);
         padding: 88px 0 0;
+        margin-left: 24px;
     }
 }
 
@@ -20,5 +21,7 @@
     .intro {
         width: calc(100% - 2 * 16px);
         padding: 64px 0 0;
+        margin-left: 16px;
+        
     }
 }
