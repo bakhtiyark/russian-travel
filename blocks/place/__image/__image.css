@@ -2,22 +2,22 @@
     max-width: 460px;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
     .place__image {
-      width: 340px;
-      height: 340px;
+      max-width: 340px;
+      max-height: 340px;
     }
   }
   
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 768px) {
     .place__image {
-      width: 340px;
-      height: 340px;
+      max-width: 340px;
+      max-height: 340px;
     }
   }
   @media screen and (max-width: 320px) {
     .place__image {
-      width: 320px;
-      height: 320px;
+      max-width: 320px;
+      max-height: 320px;
     }
   }

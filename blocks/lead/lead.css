@@ -11,19 +11,19 @@
 }
 @media screen and (max-width: 1279px) {
     .lead {
-        width: calc(100% - 2 * 24px);
+        max-width: calc(100% - 2 * 24px);
         margin: 48px auto 0;
     }
 }
 
 @media screen and (max-width: 1023px) {
     .lead {        
-        width: calc(100% - 2 * 10px);
+        max-width: calc(100% - 2 * 10px);
     }
 }
 @media screen and (max-width: 768px) {
     .lead {        
-        width: 100%;
+        max-width: 100%;
         margin: 56px 0 0 0;
     }
 }

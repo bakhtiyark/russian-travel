@@ -1,7 +1,7 @@
 .footer__copyright{
 
-width: 186px;
-height: 16px;
+max-width: fit-content;
+max-height: 16px;
 
 font-family: 'Inter';
 font-style: normal;

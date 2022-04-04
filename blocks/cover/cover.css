@@ -8,26 +8,32 @@
   
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1280px) {
   .cover {
-    width: 1004px;
-    height: 640px;
-    margin-top: 92px;
+    max-width: 1004px;
+    max-height: 740px;
   }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
   .cover {
-    width: 750px;
-    height: 480px;
+    max-width: 1024px;
+    max-height: 640px;
     margin-top: 90px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .cover {
-    width: 375px;
-    height: 200px;
+    max-width: 768px;
+    max-height: 480px;
+    margin-top: 66px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .cover {
+    max-width: 320px;
+    max-height: 240px;
     margin-top: 66px;
   }
 }
