@@ -2,8 +2,10 @@
     display: grid;
     grid-template-columns: min-content minmax(min-content, 1fr);
     grid-template-rows: minmax(min-content, max-content) 1fr;
+    grid-template-areas: 
+        "ar-title ar-website"
+        "ar-image ar-text";
     max-width: 100%;
-    margin: 80px auto 0;
     row-gap: 48px;
     column-gap: 40px;
 }
@@ -21,9 +23,8 @@
 
 @media screen and (max-width: 1024px) {
     .place {
+        grid-template-columns: min-content max-content;
         column-gap: 32px;
-        margin: 80px 48px 0 48px;
-        max-width: 100%;
     }
 }
 
@@ -42,10 +43,9 @@
 }
 @media screen and (max-width: 320px) {
     .place {
-        grid-template-columns: minmax(min-content, max-content);
-        grid-template-rows: repeat(4, minmax(min-content, max-content));
-        max-width: calc(100% - 2 * 16px);
-        row-gap: 32px;
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
         margin: 50px 0 0 0;
     }
 
