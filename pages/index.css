@@ -8,7 +8,6 @@
 
 @import url("../blocks/header/__lang-link/_checked/_checked.css");
 
-@import url("../blocks/list/__item/__item.css");
 @import url("../blocks/lead/lead.css");
 @import url("../blocks/lead/__image/__image.css");
 @import url("../blocks/lead/__map/__map.css");
@@ -52,3 +51,20 @@
 @import url("../blocks/footer/__link/__link.css");
 @import url("../blocks/footer/__list/__list.css");
 @import url("../blocks/footer/__item/__item.css");
+
+@font-face {
+    font-family: "Inter Regular";
+    src: local("Inter Regular");
+    font-weight: 400;
+  }
+
+  @font-face {
+    font-family: "Inter Bold";
+    src: local("Inter Bold");
+    font-weight: 700;
+  }
+  @font-face {
+    font-family: "Inter Black";
+    src: local("Inter Black");
+    font-weight: 900;
+  }
