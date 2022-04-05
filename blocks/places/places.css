@@ -1,23 +1,22 @@
 .places {
     display: flex;
     flex-direction: column;
-    max-width: calc(100% - 2 * 32px);
+    max-width: calc(100% - 2 * 148px);
     padding-top: 92px;
     margin-left: auto;
     margin-right: auto;
   }
 
-
-@media screen and (max-width: 1280px) {
+  @media screen and (max-width: 1279px) {
     .places {
-        max-width: calc(100% - 2 * 24px);
+    max-width: calc(100% - 2 * 48px);
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
     .places {
-        max-width: calc(100% - 2 * 24px);
     margin-top: 92px;
+    max-width: calc(100% - 2 * 24px);
     }
 }
 
@@ -25,11 +24,14 @@
     .places {
         padding-top: 64px;
     }
+    .places:first-child {
+        margin-bottom: 0;
+    }
 }
 @media screen and (max-width: 320px) {
     .places {
+        margin: 0;
         max-width: 100%;
-        padding-top: 64px;
         align-items: flex-start;
     }
 }

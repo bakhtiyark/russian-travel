@@ -1,6 +1,6 @@
 .lead{
     margin: 56px auto 0;
-    max-width: 1280px;
+    max-width: calc(100% - 2 * 148px);
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -11,8 +11,8 @@
 }
 @media screen and (max-width: 1280px) and (min-width: 1025px){
     .lead {
-        max-width: calc(100% - 2 * 148px);
-        margin: 148px auto 0;
+        max-width: calc(100% - 2 * 48px);
+        margin: 148px 48px 0 48px;
     }
 }
 
