@@ -6,20 +6,16 @@
     justify-content: space-between;
 }
 
-@media screen and (max-width: 1024px) {
-    .footer {
-        max-width: calc(100% - 2 * 48px);
-        margin: 92px auto 24px;
-    }
-}
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .footer {
-        max-width: calc(100% - 2 * 24px);
-        margin-top: 92px;
+    max-width: calc(100% - 2 * 24px);
+    font-size: 16px;
+    line-height: 18px;
+    margin-top: 92px;
     }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .footer {
         margin:0;
         margin-left: 16px;

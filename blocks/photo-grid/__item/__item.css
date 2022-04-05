@@ -1,7 +1,6 @@
 .photo-grid__item{
     object-fit: cover;
-    max-width: 284px;
-    max-height: 213px;
+    width: 100%;
     display: block;
 }
 

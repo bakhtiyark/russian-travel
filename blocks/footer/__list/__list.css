@@ -4,13 +4,12 @@
     display: flex;
     height: fit-content;
     list-style-type: none;
-    -webkit-padding-start: 0;
+    -webkit-padding-start: 0;   
 }
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .footer__list {
         flex-direction: column;
-        
     }
 }

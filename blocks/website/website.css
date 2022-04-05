@@ -8,7 +8,7 @@
 @media screen and (max-width: 767px) {
     .website {
         max-width: calc(100% - 2 * 16px);
-        margin: 0 auto;
+        margin: 0;
     }
 }
 @media screen and (max-width: 320px) {

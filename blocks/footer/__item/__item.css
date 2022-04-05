@@ -12,9 +12,9 @@
         line-height: 1.12;
     }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .footer__item {
-        padding-bottom: 32px;
+padding-bottom: 32px;
 font-size: 24px;
 line-height: 1;
     }
