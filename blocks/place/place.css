@@ -19,6 +19,9 @@
     .place {
         column-gap: 32px;
     }
+    .place {
+        margin-bottom: 92px;
+    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -56,7 +59,9 @@
         max-width: 100%;
         margin: 50px 0 0 0;
     }
-
+    .place:last-of-type{
+        margin-bottom: 66px;
+    }
     .place:last-of-type .place__paragraph {
         margin: 0 auto;
     }
