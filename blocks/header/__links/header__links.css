@@ -4,14 +4,11 @@
     display: flex;
     color: white;
     list-style-type: none;
+    margin-top: 18px;
 }
 
-@media screen and (max-width: 768px) {
-    .header__links {
-        margin-top: 18px;
-    }
-}
-@media screen and (max-width: 320px) {
+
+@media screen and (max-width: 767px) {
     .header__links {
         margin: 0;
     }

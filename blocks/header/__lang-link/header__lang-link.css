@@ -7,10 +7,12 @@
     line-height: 1.17;
     text-decoration: none;
     justify-items: end;
-    padding-right: 18px;
     color: #FFFFFF;   
 }
 .header__lang-link:hover {
+    padding-right: 18px;
+}
+.header__lang-link:last-of-type {
     opacity: 0.8;
 }
 

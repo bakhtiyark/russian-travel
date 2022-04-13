@@ -3,13 +3,9 @@
     padding: 0;
     max-width: 100%;
 }
-@media screen and (max-width: 1280px) {
-    .place__paragraphs {
-        max-width: max-content;
-    }
-}
 
-@media screen and (max-width: 320px) {
+
+@media screen and (max-width: 767px) {
     .place__paragraphs {
         padding-top: 32px;
         margin: 0 16px 0 16px;

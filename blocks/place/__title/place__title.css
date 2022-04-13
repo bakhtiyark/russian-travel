@@ -7,14 +7,9 @@ line-height: 1.06;
 color: #FFFFFF;
 text-rendering: optimizeLegibility;
 }
-@media screen and (max-width: 1280px) and (min-width: 1025px) {
-    .place__title {
-        font-size: 72px;
-        line-height: 1.06;
-    }
-}
 
-@media screen and (max-width: 1024px) {
+
+@media screen and (max-width: 1023px) {
     .place__title {
         font-size: 42px;
         line-height: 1.10;

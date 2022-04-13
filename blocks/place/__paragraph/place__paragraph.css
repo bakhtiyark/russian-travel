@@ -6,7 +6,6 @@ font-style: normal;
 font-weight: 400;
 font-size: 18px;
 line-height: 1.63;
-margin-bottom: 25px;
 }
 .place__paragraph:first-of-type{
   margin-bottom: 26px;
@@ -18,7 +17,7 @@ padding: 0;
 }
 
 @media screen and (max-width: 1279px) {
-    .place__paragraph {
+    .place__paragraph:first-of-type {
       margin-bottom: 25px;
     }
   }
