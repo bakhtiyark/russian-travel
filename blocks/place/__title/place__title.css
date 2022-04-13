@@ -13,6 +13,7 @@ text-rendering: optimizeLegibility;
     .place__title {
         font-size: 42px;
         line-height: 1.10;
+        max-width: calc(100% - 2 * 6px );
     }
 }
 @media screen and (max-width: 767px) {

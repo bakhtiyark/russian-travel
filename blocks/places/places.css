@@ -15,23 +15,19 @@
 
 @media screen and (max-width: 1023px) {
     .places {
-    margin-top: 92px;
     max-width: calc(100% - 2 * 24px);
+    padding-top: 88px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .places {
         padding-top: 64px;
-    }
-    .places:first-child {
-        margin-bottom: 0;
-    }
-}
-@media screen and (max-width: 320px) {
-    .places {
         margin: 0;
         max-width: 100%;
         align-items: flex-start;
+    }
+    .places:first-child {
+        margin-bottom: 0;
     }
 }

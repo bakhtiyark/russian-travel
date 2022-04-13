@@ -4,15 +4,14 @@
     margin: 28px auto 0;
     justify-content: space-between;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
     .header {
-        margin: 26px auto 0;
+        max-width: calc(100% - 2 * 24px);
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .header {
-        max-width: calc(100% - 2 * 24px);
         padding:0;
         margin: 16px auto 0;
     }

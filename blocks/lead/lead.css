@@ -9,21 +9,22 @@
 .lead:last-child{
     align-items: left;
 }
-@media screen and (max-width: 1280px) and (min-width: 1025px){
+@media screen and (max-width: 1279px){
     .lead {
         max-width: calc(100% - 2 * 48px);
-        margin: 62px auto 0 auto;
+        margin-top: 62px;
     }
 }
 
-@media screen and (max-width: 1024px) {
-    .lead {        
-        max-width: calc(100% - 2 * 48px);
-    }
-}
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .lead {        
         max-width: 100%;
-        margin: 56px 0 0 0;
+        margin-top: 48px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .lead {        
+        max-width: 100%;
+        margin: 50px 0 0 0;
     }
 }

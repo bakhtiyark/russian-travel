@@ -30,24 +30,18 @@
     .place {
         margin:0;
         grid-template-columns: minmax(2,min-content, max-content);
-        grid-template-rows: repeat(4, minmax(min-content, max-content));
-        row-gap: 28px;
-        margin-top: 50px;
+        row-gap: 48px;
+        margin-top: 47px;
+        column-gap: 28px;
     }
 
-    .place:last-of-type {
-        margin: 0 auto;
-    }
 }
 @media screen and (max-width: 767px) {
     .place {
         display: flex;
         flex-direction: column;
         max-width: 100%;
-        margin: 50px 0 0 0;
-    }
-    .place:last-of-type{
-        margin-bottom: 66px;
-        margin: 0 auto;
+        row-gap: 32px;
+        margin-top: 50px;
     }
 }
