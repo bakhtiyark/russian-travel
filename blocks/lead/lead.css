@@ -1,4 +1,4 @@
-.lead{
+.lead {
     margin: 56px auto 0;
     max-width: calc(100% - 2 * 148px);
     display: flex;
@@ -6,10 +6,11 @@
     flex-direction: column;
 }
 
-.lead:last-child{
+.lead:last-child {
     align-items: left;
 }
-@media screen and (max-width: 1279px){
+
+@media screen and (max-width: 1279px) {
     .lead {
         max-width: calc(100% - 2 * 48px);
         margin-top: 62px;
@@ -17,14 +18,14 @@
 }
 
 @media screen and (max-width: 1023px) {
-    .lead {        
+    .lead {
         max-width: 100%;
         margin-top: 48px;
     }
 }
+
 @media screen and (max-width: 767px) {
-    .lead {        
-        max-width: 100%;
+    .lead {
         margin: 50px 0 0 0;
     }
 }

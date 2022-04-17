@@ -5,18 +5,18 @@
     padding-top: 92px;
     margin-left: auto;
     margin-right: auto;
-  }
+}
 
-  @media screen and (max-width: 1279px) {
+@media screen and (max-width: 1279px) {
     .places {
-    max-width: calc(100% - 2 * 48px);
+        max-width: calc(100% - 2 * 48px);
     }
 }
 
 @media screen and (max-width: 1023px) {
     .places {
-    max-width: calc(100% - 2 * 24px);
-    padding-top: 88px;
+        max-width: calc(100% - 2 * 24px);
+        padding-top: 88px;
     }
 }
 
@@ -27,6 +27,7 @@
         max-width: 100%;
         align-items: flex-start;
     }
+
     .places:first-child {
         margin-bottom: 0;
     }

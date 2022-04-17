@@ -9,15 +9,16 @@
 
 @media screen and (max-width: 1023px) {
     .footer {
-    max-width: calc(100% - 2 * 24px);
-    font-size: 16px;
-    line-height: 18px;
-    margin-top: 92px;
+        max-width: calc(100% - 2 * 24px);
+        font-size: 16px;
+        line-height: 18px;
+        margin-top: 92px;
     }
 }
+
 @media screen and (max-width: 767px) {
     .footer {
-        margin:0;
+        margin: 0;
         margin-left: 16px;
         margin-top: 64px;
         max-width: calc(100% - 2 * 66px);

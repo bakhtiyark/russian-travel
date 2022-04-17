@@ -1,4 +1,4 @@
-.photo-grid{
+.photo-grid {
     margin: 0;
     padding: 0;
     display: grid;
@@ -21,6 +21,7 @@
         max-width: calc(100% - 2 * 48px);
     }
 }
+
 @media screen and (max-width: 1023px) {
     .photo-grid {
         grid-template-columns: repeat(2, 1fr);

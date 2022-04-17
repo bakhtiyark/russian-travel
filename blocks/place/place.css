@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: min-content minmax(min-content, 1fr);
     grid-template-rows: minmax(min-content, max-content) 1fr;
-    grid-template-areas: 
+    grid-template-areas:
         "ar-title ar-website"
         "ar-image ar-text";
     max-width: 100%;
@@ -21,6 +21,7 @@
         grid-template-columns: min-content 1fr;
         column-gap: 32px;
     }
+
     .place:first-of-type {
         margin: 0;
     }
@@ -28,19 +29,19 @@
 
 @media screen and (max-width: 1023px) {
     .place {
-        margin:0;
-        grid-template-columns: minmax(2,min-content, max-content);
+        margin: 0;
+        grid-template-columns: minmax(2, min-content, max-content);
         row-gap: 48px;
         margin-top: 47px;
         column-gap: 28px;
     }
 
 }
+
 @media screen and (max-width: 767px) {
     .place {
         display: flex;
         flex-direction: column;
-        max-width: 100%;
         row-gap: 32px;
         margin-top: 50px;
     }
